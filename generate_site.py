@@ -56,7 +56,7 @@ HTML = r'''<!DOCTYPE html>
     </div>
     <div class="hero-stats">
       <div><strong>100+</strong><small>Code Examples</small></div>
-      <div><strong>8</strong><small>GitHub Repositories</small></div>
+      <div><strong>11</strong><small>GitHub Repositories</small></div>
       <div><strong>100</strong><small>Survey Responses Analyzed</small></div>
       <div><strong>3</strong><small>Live Web Projects</small></div>
     </div>
@@ -90,24 +90,6 @@ HTML = r'''<!DOCTYPE html>
 <section id="python-projects" class="section alt">
   <h2 class="section-title reveal">Python <span class="accent">Projects</span></h2>
   <div class="cards">
-    <article class="card reveal">
-      <div class="card-emoji">📚</div>
-      <h3>FocusFlow — Study Planner</h3>
-      <p>A study planner web app with task management, a Pomodoro focus timer, and a weekly progress chart — runs fully offline in the browser.</p>
-      <a href="https://github.com/fouziaOS/focusflow-study-planner" target="_blank" rel="noopener">View on GitHub →</a>
-    </article>
-    <article class="card reveal">
-      <div class="card-emoji">🧠</div>
-      <h3>QuizMaster — Python Quiz</h3>
-      <p>An interactive quiz app with 24 questions in 3 categories (Python Basics, NumPy &amp; Pandas, Data Visualization), a per-question timer, explanations, and best-score tracking.</p>
-      <a href="https://github.com/fouziaOS/quizmaster-python-quiz" target="_blank" rel="noopener">View on GitHub →</a>
-    </article>
-    <article class="card reveal">
-      <div class="card-emoji">💰</div>
-      <h3>KharchaTrack — Expense Tracker</h3>
-      <p>A BDT income &amp; expense tracker with category charts and month filtering — a small personal-finance data tool that runs fully offline.</p>
-      <a href="https://github.com/fouziaOS/kharchatrack-expense-tracker" target="_blank" rel="noopener">View on GitHub →</a>
-    </article>
     <article class="card reveal">
       <div class="card-emoji">🗺️</div>
       <h3>Bellman-Ford &amp; the Yen-BF Technique</h3>
@@ -177,12 +159,16 @@ HTML = r'''<!DOCTYPE html>
       <h3>Fouzia Hoque · <a href="https://github.com/fouziaOS" target="_blank" rel="noopener">@fouziaOS</a></h3>
       <p>CSE Student @ Southeast University | Aspiring Data Scientist | Python · AI · ML | Generative AI Research</p>
       <div class="gh-repos">
+        <a href="https://github.com/fouziaOS/bangladesh-dengue-prediction" target="_blank" rel="noopener">bangladesh-dengue-prediction</a>
+        <a href="https://github.com/fouziaOS/fouzia-portfolio-website" target="_blank" rel="noopener">fouzia-portfolio-website</a>
+        <a href="https://github.com/fouziaOS/dhaka-rideshare-analysis" target="_blank" rel="noopener">dhaka-rideshare-analysis</a>
+        <a href="https://github.com/fouziaOS/online-food-delivery-analysis" target="_blank" rel="noopener">online-food-delivery-analysis</a>
+        <a href="https://github.com/fouziaOS/mobile-banking-transaction-analysis" target="_blank" rel="noopener">mobile-banking-transaction-analysis</a>
+        <a href="https://github.com/fouziaOS/dhaka-electricity-loadshedding-analysis" target="_blank" rel="noopener">dhaka-electricity-loadshedding-analysis</a>
+        <a href="https://github.com/fouziaOS/hospital-patient-analysis" target="_blank" rel="noopener">hospital-patient-analysis</a>
         <a href="https://github.com/fouziaOS/numpy-50-examples" target="_blank" rel="noopener">numpy-50-examples</a>
         <a href="https://github.com/fouziaOS/data-visualization-50-examples" target="_blank" rel="noopener">data-visualization-50-examples</a>
         <a href="https://github.com/fouziaOS/bellman-ford-yen-bf-poster" target="_blank" rel="noopener">bellman-ford-yen-bf-poster</a>
-        <a href="https://github.com/fouziaOS/focusflow-study-planner" target="_blank" rel="noopener">focusflow-study-planner</a>
-        <a href="https://github.com/fouziaOS/quizmaster-python-quiz" target="_blank" rel="noopener">quizmaster-python-quiz</a>
-        <a href="https://github.com/fouziaOS/kharchatrack-expense-tracker" target="_blank" rel="noopener">kharchatrack-expense-tracker</a>
       </div>
     </div>
   </div>

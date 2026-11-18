@@ -5,7 +5,7 @@ A personal portfolio website for **Fouzia Hoque**, CSE student at Southeast Univ
 ## Sections
 - **Home** — hero with typing animation and key stats
 - **About Me** — background, FYDP research, and skills
-- **Python Projects** — FocusFlow Study Planner, QuizMaster Python Quiz, KharchaTrack Expense Tracker, Bellman-Ford/Yen-BF poster
+- **Python Projects** — Bellman-Ford/Yen-BF poster
 - **NumPy (50 Codes)** — the NumPy in 50 Examples collection
 - **Data Visualization (50 Codes)** — Matplotlib gallery with 6 featured charts (all 50 on GitHub)
 - **Data Analysis** — FYDP survey analysis (pilot, N = 100) and the 5-step analysis workflow
