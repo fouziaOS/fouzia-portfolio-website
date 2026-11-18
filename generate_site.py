@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Build script for Fouzia Hoque's Personal Data Science Portfolio Website.
 
-This site is built with Python + HTML + CSS only — no JavaScript.
+This site is built with Python + HTML + CSS.
 Run this file to (re)generate index.html and style.css:
 
     python generate_site.py
@@ -209,7 +209,7 @@ HTML = r'''<!DOCTYPE html>
 </section>
 
 <footer>
-  <p>© 2026 Fouzia Hoque · Built with Python, HTML &amp; CSS — no JavaScript · <a href="https://github.com/fouziaOS" target="_blank" rel="noopener">github.com/fouziaOS</a></p>
+  <p>© 2026 Fouzia Hoque · Built with Python, HTML &amp; CSS · <a href="https://github.com/fouziaOS" target="_blank" rel="noopener">github.com/fouziaOS</a></p>
 </footer>
 
 </body>
