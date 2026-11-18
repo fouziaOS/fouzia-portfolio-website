@@ -19,6 +19,7 @@ a{color:var(--accent);text-decoration:none}
 .nav nav{display:flex;gap:18px;flex-wrap:wrap}
 .nav nav a{color:var(--muted);font-size:14.5px;font-weight:600}
 .nav nav a:hover{color:var(--accent)}
+.menu-toggle{display:none}
 .menu-btn{display:none;background:none;border:1px solid var(--border);color:var(--text);
   border-radius:8px;font-size:18px;padding:4px 10px;cursor:pointer}
 
@@ -28,8 +29,12 @@ a{color:var(--accent);text-decoration:none}
 .hero-tag{letter-spacing:3px;text-transform:uppercase;color:var(--accent);font-size:13px;font-weight:700}
 .hero h1{font-size:52px;margin:10px 0 4px}
 .typing-line{font-size:26px;color:var(--muted);min-height:38px;font-weight:600}
-.cursor{color:var(--accent);animation:blink 1s steps(1) infinite}
-@keyframes blink{50%{opacity:0}}
+.rotator{display:inline-grid;text-align:left;vertical-align:bottom}
+.rotator>span{grid-area:1/1;color:var(--accent);opacity:0;white-space:nowrap;animation:rotateWord 12s infinite}
+.rotator>span:nth-child(2){animation-delay:3s}
+.rotator>span:nth-child(3){animation-delay:6s}
+.rotator>span:nth-child(4){animation-delay:9s}
+@keyframes rotateWord{0%{opacity:0;transform:translateY(8px)}4%{opacity:1;transform:none}25%{opacity:1}29%{opacity:0;transform:translateY(-8px)}100%{opacity:0}}
 .hero-text{color:var(--muted);max-width:640px;margin:12px auto 0}
 .hero-btns{margin-top:26px;display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
 .btn{display:inline-block;padding:12px 24px;border-radius:999px;font-weight:700;font-size:15px}
@@ -102,8 +107,8 @@ a.contact-item:hover{border-color:var(--accent)}
 footer{text-align:center;padding:26px 16px;border-top:1px solid var(--border);color:var(--muted);font-size:14px}
 
 /* REVEAL ANIMATION */
-.reveal{opacity:0;transform:translateY(22px);transition:opacity .6s ease,transform .6s ease}
-.reveal.visible{opacity:1;transform:none}
+.reveal{animation:fadeUp .7s ease both}
+@keyframes fadeUp{from{opacity:0;transform:translateY(22px)}to{opacity:1;transform:none}}
 
 /* RESPONSIVE */
 @media (max-width:860px){
@@ -114,6 +119,6 @@ footer{text-align:center;padding:26px 16px;border-top:1px solid var(--border);co
   .menu-btn{display:block}
   .nav nav{display:none;position:absolute;top:58px;left:0;right:0;flex-direction:column;gap:0;
     background:var(--bg2);border-bottom:1px solid var(--border);padding:8px 0}
-  .nav nav.open{display:flex}
+  .menu-toggle:checked~nav{display:flex}
   .nav nav a{padding:10px 26px}
 }
